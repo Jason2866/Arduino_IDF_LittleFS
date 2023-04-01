@@ -1,1 +1,3 @@
-# Arduino_IDF_LittleFS
+# Arduino IDF LittleFS example
+
+Don´t forget to add the file `idf_component.yml` !!
