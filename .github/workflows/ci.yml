@@ -35,4 +35,4 @@ jobs:
           pio pkg install --global --platform https://github.com/Jason2866/platform-espressif32.git#Tasmota/IDF5
       - name: Build
         run: |
-          pio run ${{ matrix.env }}
+          pio run -e ${{ matrix.env }}
