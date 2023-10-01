@@ -32,7 +32,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install wheel
           pip install -U https://github.com/platformio/platformio/archive/develop.zip
-          pio pkg install --global --platform https://github.com/Jason2866/platform-espressif32.git#Tasmota/IDF5
       - name: Build
         run: |
           pio run -e ${{ matrix.env }}
