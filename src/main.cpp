@@ -215,7 +215,7 @@ void testFileIO(fs::FS &fs, const char * path){
     }
     Serial.println("");
     uint32_t end = millis() - start;
-    //Serial.printf(" - %u bytes written in %u ms\r\n", 2048 * 512, end);
+    Serial.printf(" - %u bytes written in %u ms\r\n", 2048 * 512, (unsigned int)end);
     file.close();
 
     file = fs.open(path);
