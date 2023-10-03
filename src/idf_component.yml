@@ -4,6 +4,7 @@ dependencies:
 
   esp_littlefs:
     git: https://github.com/joltwallet/esp_littlefs.git
+    version: lfs2.8
 
   # nghttp: "^1.50.0"
   # esp_jpeg: "^1.0.4"
